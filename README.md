@@ -17,6 +17,10 @@ Looking at dozens of browser access webshells I saw a lot of similarities in the
 
 # Screenshots
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diskurse/pagurus-webshell/master/images/screenshot.png">
+</p>
+
 # Features
 
 On Windows boxes when a process is executed an EventID 4688 entry is created in the Windows Event Logs which includes "New Process Name" and "Creator Process Name", enabling analysts to determine child/parent process tree. Depending on how up to date the system is and whether it has been enabled, this event log will also include a field called "Process Command Line" which contains the command line as executed by the user, Pagurus aims to add a layer of obfuscation to this field.
