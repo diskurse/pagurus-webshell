@@ -39,7 +39,7 @@ Pagurus adds some basic obfuscation which will "pollute" the Process Command Lin
   <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-3.png">
 </p>
 
-And here is what the spawned process looks like in the logs.
+And here is what the spawned process looks like in a EventID 4688 log event.
 
 <p align="center">
   <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-2.png">
