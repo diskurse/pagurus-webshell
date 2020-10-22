@@ -5,7 +5,7 @@ Pagurus is a browser access (as opposed to "thick client") PHP webshell which im
 The webshell is named after the humble hermit crab (Pagurus bernhardus) which has evolved various methods of camouflaging itself in the wild.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diskurse/pagurus-webshell/main/images/pagarus.jpg">
+  <img src="https://raw.githubusercontent.com/diskurse/pagurus-webshell/master/images/pagarus.jpg">
 </p>
 
 # Motivation
@@ -24,25 +24,25 @@ On Windows boxes when a process is executed an EventID 4688 entry is created in 
 Below you can see "whoami" executed through a webshell with no command line obfuscation.
 
 <p align="center">
-  <img src="https://github.com/diskurse/pagurus-webshell/blob/main/images/pagu-5.png">
+  <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-5.png">
 </p>
 
 The resulting spawned process looks like this in WinEventLog.
 
 <p align="center">
-  <img src="https://github.com/diskurse/pagurus-webshell/blob/main/images/pagu-1.png">
+  <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-1.png">
 </p>
 
 Pagurus adds some basic obfuscation, here's what that looks like as "whoami" is executed.
 
 <p align="center">
-  <img src="https://github.com/diskurse/pagurus-webshell/blob/main/images/pagu-3.png">
+  <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-3.png">
 </p>
 
 And here is what the spawned process looks like in the logs.
 
 <p align="center">
-  <img src="https://github.com/diskurse/pagurus-webshell/blob/main/images/pagu-2.png">
+  <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-2.png">
 </p>
 
 # Usage
