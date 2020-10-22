@@ -21,19 +21,19 @@ Looking at dozens of browser access webshells I saw a lot of similarities in the
 
 On Windows boxes when a process is executed an EventID 4688 entry is created in the Windows Event Logs, depending on how up to date the system is and whether it has been enabled this event will include a field called "Process Command Line" which contains the command line as executed, Pagurus aims to add a layer of obfuscation to this field.
 
-Below you can see "whoami" executed through a webshell with no command line obfuscation.
+Below you can see a partial EventID 4688 entry showing "whoami" executed through a webshell with no command line obfuscation.
 
 <p align="center">
   <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-5.png">
 </p>
 
-The resulting spawned process looks like this in WinEventLog.
+The resulting spawned process looks like this in WinEventLog:
 
 <p align="center">
   <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-1.png">
 </p>
 
-Pagurus adds some basic obfuscation, here's what that looks like as "whoami" is executed.
+Pagurus adds some basic obfuscation which will "pollute" the Process Command Line field, here's what that looks like as "whoami" is executed again:
 
 <p align="center">
   <img src="https://github.com/diskurse/pagurus-webshell/blob/master/images/pagu-3.png">
