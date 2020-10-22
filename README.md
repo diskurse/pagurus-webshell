@@ -51,5 +51,5 @@ And here is what the spawned process looks like in the logs.
 
 * Password protection
 * POST functionality
-* Fake 404 page
+* Fake IIS 404 page
 * File upload
